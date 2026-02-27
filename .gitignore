@@ -1,0 +1,34 @@
+# Large downloaded datasets — re-downloadable via notebook
+data/GSE13609_series_matrix.txt.gz
+data/Nature_2011_Cell.csv
+data/MolSysBio_2013_Cell.csv
+data/AnalChem_72_p367_Brain.csv
+data/AnalChem_72_p367_Liver.csv
+data/Science_2016_Heart.csv
+data/subcellular_location.tsv
+data/subcellular_location.tsv.zip
+data/subcellular_locations.tsv.zip
+
+# Temp/scratch files from data download attempts
+data/all_genes_list.txt
+data/mae_bae_supp_table.pdf
+data/mae_experimental.csv
+data/mae_predictions.csv
+data/mae_genes_DS12.xlsx
+data/mae_genes_nag2016_supp2.xlsx
+data/mae_genes_nag2016_supp4.xlsx
+data/mae_nag2013_dataset_S1.ods
+data/mae_raw_data.tsv
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Editors
+.vscode/
+.idea/

@@ -1,0 +1,12 @@
+Metric,Sig n,Sig median,Non-sig n,Non-sig median,p-value,q-value (BH)
+RNA HL | Within-pair |diff|,18,2.265,1953,3.15,0.07561,0.2079
+RNA HL | Pair mean HL,18,11.25,1953,10.905,0.7907,0.9504
+RNA HL | Per-gene HL,36,11.01,3906,10.465,0.8721,0.9504
+Protein HL | Within-pair |diff|,19,19.51,2148,32.62,0.06927,0.2079
+Protein HL | Pair mean HL,19,50.06,2148,60.238,0.1641,0.361
+Protein HL | Per-gene HL,38,44.07,4296,56.645,0.2174,0.3986
+MAE | Per-gene MAE probability,68,0.06,47196,0.751,7.043e-19,7.747e-18
+MAE | Pair concordance (both same MAE/BAE),34,1.0,23598,1.0,0.3338,0.5246
+Localisation | Jaccard similarity,25,0.5,13062,0.25,0.0075,0.04125
+Localisation | Compartment count per gene,50,2.0,26124,2.0,0.5799,0.7974
+Localisation | Mean compartment count per pair,25,2.0,13062,2.0,0.9504,0.9504
