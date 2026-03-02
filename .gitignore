@@ -1,4 +1,6 @@
 # Large downloaded datasets — re-downloadable via notebook
+data/bigwig/
+data/hg38_refseq.txt
 data/GSE13609_series_matrix.txt.gz
 data/Nature_2011_Cell.csv
 data/MolSysBio_2013_Cell.csv
