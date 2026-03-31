@@ -1,0 +1,21 @@
+Table 1: Essentiality Confound Analysis (essential vs non-essential genes - DepMap 24Q4)
+Property,Essential (n),Median (essential),Non-essential (n),Median (non-essential),p-value
+mRNA half-life (h),1553,6.73,9063,3.77,3.3e-63
+Protein half-life (h),1243,93.8,5123,77.1,4.2e-17
+MAE probability,1497,0.053,14837,0.435,~0
+Localisation Jaccard,--,0.125,--,0.000,9.0e-26
+
+Table 2: Multi-model MAE Classifier Comparison (20-feature matrix / 10 ENCODE cell lines / 5-fold CV)
+Model,AUC,Sens (thr=0.5),Spec (thr=0.5),MAE rate (thr=0.5),Calibrated thr,Sens (calibrated),Spec (calibrated),MAE rate (calibrated)
+Logistic Regression*,0.847,0.544,0.963,43.7%,0.931,0.065,0.998,12.0%
+Random Forest,0.845,0.505,0.970,40.5%,0.783,0.141,0.995,12.3%
+SVM (RBF),0.836,0.553,0.952,43.2%,0.802,0.195,0.995,12.0%
+Gradient Boosting,0.833,0.523,0.960,44.8%,0.950,0.148,0.996,12.0%
+*Selected model (highest AUC)
+
+Table 3: MAE Probability by Gene Role in Significant Paralog Pairs (LR calibrated thr=0.931)
+Group,n,Median MAE probability,p vs non-sig
+dep_gene,33,0.040,2.4e-12
+paralog_gene,36,0.082,1.3e-05
+Non-sig,11597,0.459,--
+dep_gene vs paralog_gene (two-sided),--,--,0.012
